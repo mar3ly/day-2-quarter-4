@@ -1,65 +1,74 @@
-# Description: This file is for the second day of the python workshop
+# # Description: This file is for the second day of the python workshop
 
 
-# create variables for the following :
-# 1. age
-age = 16 
-# 2. name
-name = "Marely"
-# 3. song
-song = "Get it Sexy"
-# 4. food
-food = "tacos"
-# 5. number
-number = 8
-# #now include the variables you just made print in the following...
-# Once upon a time, there was a [age] old coder named [name].
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would
-# throw [food] until [name] would stop singing.
-# Still, [name] was the best coder on the team and could write [number] lines of code every day.
-# Maybe [song] was [name]’s secret power?
-# No one will ever know.
+# # create variables for the following :
+# # 1. age
+# age = 16 
+# # 2. name
+# name = "Marely"
+# # 3. song
+# song = "Get it Sexy"
+# # 4. food
+# food = "tacos"
+# # 5. number
+# number = 8
+# # #now include the variables you just made print in the following...
+# # Once upon a time, there was a [age] old coder named [name].
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would
+# # throw [food] until [name] would stop singing.
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day.
+# # Maybe [song] was [name]’s secret power?
+# # No one will ever know.
 
-print(f'''Once upon a time, there was a 16 old coder named "Marely". "Marely" liked to hum the song "Get it Sexy" while coding. It was so annoying that their teammates would throw "tacos" until "Marely" would stop singing. Still, "Marely" was the best coder on the team and could write 8 lines of code every day. Maybe "Get it Sexy" was "Marely’s" secret power? No one will ever know.''')
+# print(f'''Once upon a time, there was a 16 old coder named "Marely". "Marely" liked to hum the song "Get it Sexy" while coding. It was so annoying that their teammates would throw "tacos" until "Marely" would stop singing. Still, "Marely" was the best coder on the team and could write 8 lines of code every day. Maybe "Get it Sexy" was "Marely’s" secret power? No one will ever know.''')
 
-# What is syntax ? What is an algorithm? 
-# what is a variable?holds data 
-# What is a string? 
+# # What is syntax ? What is an algorithm? 
+# # what is a variable?holds data 
+# # What is a string? 
 
-# name = "John" #string this is defined
-# strings are nothing but plain text
-# what does this do?
-print("Giraffe \n academy")
-#\n makes a new line
-print("Giraffe \n academy")
-#\t makes a new tab
+# # name = "John" #string this is defined
+# # strings are nothing but plain text
+# # what does this do?
+# print("Giraffe \n academy")
+# #\n makes a new line
+# print("Giraffe \n academy")
+# #\t makes a new tab
 
-# or this
-phrase = "python learning"
-print(phrase + "is cool") 
-#This is called concatenation or string interpolation
+# # or this
+# phrase = "python learning"
+# print(phrase + "is cool") 
+# #This is called concatenation or string interpolation
 
-#what does the + sign do? What is it called?
-print("The length of the phrase"len(phrase))
-declarationOfInDependence = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+# #what does the + sign do? What is it called?
+# print("The length of the phrase"len(phrase))
+# declarationOfInDependence = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
 
 
-#what if I wanted to get the length of a phrase?
-print(f"The length of the phrase"len(phrase))
-declarationOfInDependence = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
+# #what if I wanted to get the length of a phrase?
+# print(f"The length of the phrase"len(phrase))
+# declarationOfInDependence = "We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness."
 
-print("the length of the declaration is"len(declarationOfInDependence))
+# print("the length of the declaration is"len(declarationOfInDependence))
 
 #what if I wanted to make the letters in the variable upper case or lower?
-
-
+new_phrase = "welcome to day 2 part 3"
+print(len(new_phrase))
+print(new_phrase.upper())
+#.upper is a method that makes the string all upper case
+#.parenthasis are used to call methods
+print(new_phrase.lower())
+#.lower is a method that makes the string all lower case
 
 
 #what if I wanted to check and see if the phrase was all lower or upper?
 
 
 #What if I wanted to get one letter of the phrase
-
+print(new_phrase[0]) #prints the first letter
+print(new_phrase[1]) #prints the second letter
+print(new_phrase[2]) #prints the third letter
+print(new_phrase[11]) #prints the twelve letter
+print(new_phrase[-1]) #prints the last letter
 
 # The names you use when creating these labels need to follow a few rules:
 # 1. Names can not start with a number.
@@ -79,18 +88,25 @@ print("the length of the declaration is"len(declarationOfInDependence))
 
 
 # Addition
+print(2 + 2)
 
 # Subtraction
+print(2 - 2)
 
 # Multiplication
+print(2 * 2)
 
 # Division
+print(2 / 2)
 
 # Modulus
+print(2 % 2)
 
 # Exponentiation
+print(2 ** 2)
 
 # Floor Division
+print(10 // 2)
 
 # Order of Operations followed in Python
 
